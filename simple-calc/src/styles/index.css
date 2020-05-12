@@ -1,0 +1,34 @@
+:root {
+  --color-main: #333;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-main);
+}
+
+form {
+	border: thin solid #888;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.result {
+	text-align: center;
+  font-size: 1.0rem;
+  color: lightblue;
+  text-decoration: wavy;
+  margin-bottom: 1rem;
+}
+.header {
+	text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
