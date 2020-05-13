@@ -10,24 +10,17 @@
 
 body {
   color: var(--color-main);
-}
-
-form {
-	border: thin solid #888;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-.result {
+}.result {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 	text-align: center;
   font-size: 1.0rem;
-  color: lightblue;
-  text-decoration: wavy;
+  color: rgb(51, 153, 255);
   margin-bottom: 1rem;
 }
 .header {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 	text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
